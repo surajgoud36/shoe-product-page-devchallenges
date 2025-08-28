@@ -17,7 +17,7 @@ body {
   max-width: 100%;
   display: grid;
   column-gap: 52px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-rows: 1fr;
 }
 .left-container {
@@ -56,6 +56,7 @@ h1 {
   font-weight: 400;
   font-weight: 500;
   color: #394150;
+  max-width: 700px;
 }
 h4 {
   margin-bottom: 1rem;
@@ -132,6 +133,7 @@ li {
 }
 @media only screen and (min-width: 1025px) {
   h1 {
+    width: 50%;
   }
 }
 @media only screen and (max-width: 1024px) {
